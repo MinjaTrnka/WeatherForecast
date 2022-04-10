@@ -1,0 +1,59 @@
+body {
+  font-family: "DM Serif Display", serif;
+  background-color: rgb(165, 160, 160);
+}
+.main-container {
+  width: 40%;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(40, 157, 218, 1) 100%
+  );
+  padding: 10px;
+  text-align: center;
+  margin: 5% auto;
+  border-radius: 10px;
+}
+#town {
+  font-size: 32px;
+  margin-bottom: 3px;
+}
+#currentDate {
+  margin-top: 0px;
+  font-size: 15px;
+}
+#currentDesc {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#currentTemp {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 50px;
+}
+.moreInfo {
+  margin: 0px;
+}
+.dailyForecast {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  gap: 30px;
+}
+.showDate {
+  padding: 10px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(40, 157, 218, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+.showTemp {
+  font-size: 30px;
+}
